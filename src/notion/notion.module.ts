@@ -1,7 +1,7 @@
 import { DynamicModule, Module } from '@nestjs/common';
 import { Client } from '@notionhq/client';
 
-import { NOTION_CLIENT } from './notion.constants.ts';
+import { NOTION_CLIENT } from './notion.constants';
 
 export type NotionModuleConfig = {
   notionToken: string;
